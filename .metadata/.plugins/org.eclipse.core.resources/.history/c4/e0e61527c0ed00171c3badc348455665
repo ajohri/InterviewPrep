@@ -1,0 +1,19 @@
+package LinkedList;
+
+public class LinkedList {
+	Node head;
+	
+	public LinkedList(int value) {
+		head = new Node(value, null);
+	}
+	
+	// This is assuming we have no tail pointer
+	public void addNode(Node newNode) {
+		Node temp = head;
+		
+		// This gets us to the last element in the linked list
+		while(temp.next != null) {
+			temp = temp.next;
+		}
+	}
+}

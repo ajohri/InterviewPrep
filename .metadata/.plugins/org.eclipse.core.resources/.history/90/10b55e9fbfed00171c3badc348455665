@@ -1,0 +1,12 @@
+package LinkedList;
+
+public class LinkedList {
+	Node head;
+	
+	public LinkedList(int value) {
+		head = new Node(value, null);
+	}
+	public void addNode(Node newNode) {
+		
+	}
+}
