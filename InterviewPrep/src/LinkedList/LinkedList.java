@@ -4,7 +4,7 @@ public class LinkedList {
 	Node head;
 	
 	public LinkedList(int value) {
-		head = new Node(value, null);
+		head = new Node(value);
 	}
 	
 	// This is assuming we have no tail pointer
