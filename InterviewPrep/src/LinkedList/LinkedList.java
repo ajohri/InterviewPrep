@@ -1,6 +1,8 @@
 package LinkedList;
 
-public class LinkedList {
+import java.awt.List;
+
+public class LinkedList extends List {
 	Node head;
 	
 	public LinkedList(int value) {
@@ -33,5 +35,16 @@ public class LinkedList {
 			curr = curr.next;
 		}
 		
+	}
+	
+	public String printLinkList() {
+		StringBuilder sb = new StringBuilder();
+		while(head.next != null) {
+			sb.append(" "+ head.value +" ");
+		}
+		//for the last value
+		sb.append(" " + head.value);
+		
+		return sb.toString();
 	}
 }
