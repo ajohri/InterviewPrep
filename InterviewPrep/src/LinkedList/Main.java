@@ -1,14 +1,12 @@
 package LinkedList;
 
-import java.awt.List;
-
 public class Main {
 	public static void main(String[] args) {
-		Node test1node = creationTest();
-		System.out.println(test1node.printNode());
+//		Node test1node = creationTest();
+//		System.out.println(test1node.printNode());
 		
-		List test1list = creationListTest();
-		System.out.println(((LinkedList) test1list).printLinkList());
+		LinkedList test1list = creationListTest();
+		System.out.println(test1list.printLinkList());
 	}
 	
 	public static Node creationTest()
@@ -17,7 +15,13 @@ public class Main {
 	}
 	
 	public static LinkedList creationListTest() {
-		return new LinkedList(0);
+		LinkedList test = new LinkedList(0);
+		Node tempTest = new Node(1);
+		test.addNode(tempTest);
+		tempTest = new Node(2);
+		test.addNode(tempTest);
+		test.deleteNode();
+		return test;
 	}
 	
 }
