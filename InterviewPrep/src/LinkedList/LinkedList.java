@@ -27,10 +27,15 @@ public class LinkedList {
 		curr = head;
 		prev = null;
 
-		System.out.println("Before the while loop inside of the deleteNode");
+		// If there are no nodes in the linked list we don't do anything
+		if(head == null) {
+			return;
+		}
+		
 		// This gets us to the last element in the linked list
 		// and allows us to have a reference to the node before
 		// so that we can delete the node we are currently on.
+		System.out.println("Before the while loop inside of the deleteNode");
 		while (curr.next != null) {
 			System.out.println("Curr: " + curr.printNode());
 			prev = curr;
