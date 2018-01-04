@@ -1,0 +1,18 @@
+package Stack;
+
+public class StackArray {
+	int size;
+	int[] stack;
+	int top_index;
+	
+	public StackArray(int input_size) {
+		size = input_size;
+		stack = new int[input_size];
+		top_index = 0;
+	}
+	
+	public void addValue(int value) {
+		stack[top_index] = value;
+		top_index++;
+	}
+}

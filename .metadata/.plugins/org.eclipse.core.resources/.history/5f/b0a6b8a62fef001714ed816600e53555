@@ -1,0 +1,15 @@
+package Stack;
+
+public class StackArray {
+	int size;
+	int[] stack;
+	
+	public StackArray(int input_size) {
+		size = input_size;
+		stack = new int[input_size];
+	}
+	
+	public void addValue(int value) {
+		
+	}
+}
