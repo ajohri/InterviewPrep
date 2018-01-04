@@ -1,0 +1,12 @@
+package LinkedList;
+
+public class Main {
+	public static void main(String[] args) {
+		Node test1node = creationTest();
+	}
+	
+	public static Node creationTest()
+	{
+		return new Node();
+	}
+}
