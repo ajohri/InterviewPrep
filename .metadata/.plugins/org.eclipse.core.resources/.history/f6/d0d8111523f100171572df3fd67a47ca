@@ -12,10 +12,6 @@ public class StackArray {
 	}
 	
 	public void push(int value) {
-		// The stack is full and so we can not push right now.
-		if(isFull()) {
-			return;
-		}
 		stack[top_index] = value;
 		top_index++;
 	}
@@ -34,14 +30,9 @@ public class StackArray {
 	{
 		if(top_index != 0) {
 			return false;
-		}
-		return true;
-	}
-	
-	public boolean isFull() {
-		if(top_index == size - 1) {
+		} else
+		{
 			return true;
 		}
-		return false;
 	}
 }
