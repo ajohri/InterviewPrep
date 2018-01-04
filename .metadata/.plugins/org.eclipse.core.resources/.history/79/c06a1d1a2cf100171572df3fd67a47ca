@@ -1,0 +1,10 @@
+package Stack;
+
+import java.util.LinkedList;
+
+public class StackLinkedList {
+	LinkedList<Integer> stack = new LinkedList<Integer>();
+	public StackLinkedList() {
+		
+	}
+}

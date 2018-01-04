@@ -19,26 +19,11 @@ public class StackLinkedList {
 		} else {
 			int temp = stack.getLast();
 			stack.removeLast();
-			curr_size--;
 			return temp;
 		}
 	}
 	
-	public void push(int value) {
-		// Don't do anything
-		if(isFull()) {
-			return;
-		} else {
-			stack.push(value);
-			curr_size++;
-		}
-	}
-	
-	public boolean isEmpty() {
-		return stack.isEmpty();
-	}
-	
-	public boolean isFull() {
-		return curr_size == max_size -1;
+	public void push() {
+		if(curr_size == max_size - 1);
 	}
 }

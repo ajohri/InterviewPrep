@@ -26,7 +26,7 @@ public class StackLinkedList {
 	
 	public void push(int value) {
 		// Don't do anything
-		if(isFull()) {
+		if(curr_size == max_size - 1) {
 			return;
 		} else {
 			stack.push(value);
@@ -36,9 +36,5 @@ public class StackLinkedList {
 	
 	public boolean isEmpty() {
 		return stack.isEmpty();
-	}
-	
-	public boolean isFull() {
-		return curr_size == max_size -1;
 	}
 }

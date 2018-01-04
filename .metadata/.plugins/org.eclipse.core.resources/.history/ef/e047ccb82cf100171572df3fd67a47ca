@@ -1,0 +1,24 @@
+package Stack;
+
+import java.util.LinkedList;
+
+public class StackLinkedList {
+	LinkedList<Integer> stack = new LinkedList<Integer>();
+	int size;
+	
+	public StackLinkedList(int size) {
+		this.size = size;
+	}
+	
+	public int pop() {
+		//Nothing to pop
+		if(stack.isEmpty()) {
+			return (Integer) null;
+		} else {
+			int temp = stack.getLast();
+			stack.removeLast();
+			return templ
+		}
+		return 0;
+	}
+}
