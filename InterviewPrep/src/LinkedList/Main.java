@@ -6,7 +6,7 @@ public class Main {
 //		System.out.println(test1node.printNode());
 		
 		LinkedList test1list = creationListTest();
-		System.out.println(test1list.printLinkList());
+		test1list.printLinkList();
 	}
 	
 	public static Node creationTest()

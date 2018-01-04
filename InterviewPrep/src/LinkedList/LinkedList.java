@@ -40,16 +40,13 @@ public class LinkedList {
 
 	}
 
-	public String printLinkList() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("Linked List: ");
+	public void printLinkList() {
+		System.out.print("Linked List: ");
 		while (head.next != null) {
-			sb.append(head.value + ", ");
+			System.out.print(head.value + ", ");
 			head = head.next;
 		}
 		// for the last value
-		sb.append(head.value);
-
-		return sb.toString();
+		System.out.print(head.value);
 	}
 }
