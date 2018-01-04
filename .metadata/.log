@@ -53,3 +53,107 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.eclipse.jface.text 2 0 2017-12-30 13:28:15.975
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-01-01 10:27:42.906 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/abhishekjohri/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/abhishekjohri/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-01-01 10:27:49.016
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-01-01 10:27:50.794
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-01 10:27:50.794
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e9e7a70,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@360ccb68,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 0 2018-01-01 10:27:56.393
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-01 10:27:56.423
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.GXT' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-01 10:27:56.423
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.SmartGWT' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-01 10:27:56.424
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.UiBinder' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-01 10:31:09.004
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-01 10:31:09.005
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-01 11:17:02.012
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-01 11:17:02.013
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-01-03 13:02:03.687 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/abhishekjohri/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/abhishekjohri/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-01-03 14:31:32.875
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-01-03 14:31:34.598
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-01-03 14:31:34.598
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@581cb879,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a77953c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 0 2018-01-03 14:31:40.984
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-03 14:31:41.198
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.GXT' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-03 14:31:41.199
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.SmartGWT' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.ui 4 0 2018-01-03 14:31:41.199
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.google.gdt.eclipse.designer.UiBinder' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-03 20:52:46.945
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-01-03 20:52:46.946
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

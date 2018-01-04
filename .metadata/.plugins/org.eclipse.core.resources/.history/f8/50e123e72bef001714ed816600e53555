@@ -1,0 +1,10 @@
+package Stack;
+
+public class StackArray {
+	int size;
+	int[] stack;
+	
+	public StackArray(int input_size) {
+		
+	}
+}

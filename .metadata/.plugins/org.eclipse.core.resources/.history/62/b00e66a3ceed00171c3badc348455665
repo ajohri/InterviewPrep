@@ -1,0 +1,23 @@
+package LinkedList;
+
+import java.awt.List;
+
+public class Main {
+	public static void main(String[] args) {
+		Node test1node = creationTest();
+		System.out.println(test1node.printNode());
+		
+		List test1list = creationListTest();
+		System.out.println(((LinkedList) test1list).printLinkList());
+	}
+	
+	public static Node creationTest()
+	{
+		return new Node(0);
+	}
+	
+	public static LinkedList creationListTest() {
+		return new LinkedList(0);
+	}
+	
+}
